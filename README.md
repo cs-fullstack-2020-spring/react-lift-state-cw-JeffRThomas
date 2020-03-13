@@ -1,9 +1,10 @@
 # react-liftState-cw
-
+### You should be keeping up with who clicked the button last in the parent component instead dof alerting it from the chile component. You should be using state to update the value of `lastPlayerClicked` in the parent component. 
+### Score : 3/5
 ### Exercise 1
 Create a `Player` component with player # label and a button. Call it twice from the parent component. In the parent component print out the Player number that pressed the button last.
 
-### Exercise 2:
+### Exercise 2 Bonus Not Graded
 Make a 2 player game
 
 Create a `Player` component. The component should have 2 labels with buttons below them. The first label should say the Player # and the second should be the player's score. The button should say “1 pt”. The `Player` component should keep up with it's score in state.
